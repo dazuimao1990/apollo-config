@@ -1,4 +1,4 @@
-FROM java:8-jre-alpin
+FROM java:8-jre-alpine
 
 COPY . /usr/src/myapp
 
