@@ -4,6 +4,7 @@ COPY . /usr/src/myapp
 
 WORKDIR /usr/src/myapp
 
-RUN chmod +x ./docker-entrypoint.sh
+RUN chmod +x ./docker-entrypoint.sh \
+&& apk add --no-cache bash
 
 ENTRYPOINT ["./docker-entrypoint.sh"]
