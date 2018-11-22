@@ -47,4 +47,4 @@ else
 fi
 
 #start service 
-java -jar ${JAVA_OPTS} --port=5000 apollo-configservice-1.2.0-SNAPSHOT.jar
+java -jar ${JAVA_OPTS} apollo-configservice-1.2.0-SNAPSHOT.jar
