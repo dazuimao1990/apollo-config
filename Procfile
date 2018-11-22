@@ -1,1 +1,1 @@
-web: bash -x ./docker-entrypoint.sh
+web: bash -x /app/docker-entrypoint.sh
